@@ -96,7 +96,7 @@ o	schemas.py → Pydantic models for request/response validation
 •	Replace SQLite with PostgreSQL for production
 •	Implement hashed password storage
 •	Add feature importance visualization in Streamlit
-•	Deploy on cloud (AWS/GCP/Heroku)
+•	Deploy on cloud
 
 ## Contact
 Email: mrm.khosravi@yahoo.com
