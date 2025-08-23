@@ -19,10 +19,7 @@ o	Managing negative longitude values without special transformation.
 2.	Modeling:
 o	XGBoost Regressor with standard and hyperparameter-tuned versions (RandomizedSearchCV).
 o	Evaluation metrics: RMSE (Root Mean Squared Error)
-Dataset                	RMSE
-Validation	             49,768.54
-Test (Default XGBoost) 	47,761.38
-Test (Random Search) 	  47,416.80
+RMSE for Datasets:  Validation: 49,768.54 , Test (Default XGBoost): 47,761.38 , Test (Random Search): 47,416.80)
 
 3.	API:
 o	Built with FastAPI.
