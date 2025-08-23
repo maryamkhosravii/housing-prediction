@@ -100,6 +100,7 @@ o	schemas.py → Pydantic models for request/response validation
 
 ## Contact
 Email: mrm.khosravi@yahoo.com
+
 Project Link: https://github.com/maryamkhosravii/housing-prediction
 
 Made with ❤️ by Maryam Khosravi
