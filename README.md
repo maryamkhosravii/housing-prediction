@@ -12,30 +12,30 @@ The project uses the California Housing dataset to predict median house values b
 Key components:
 
 1.	Data preprocessing:
-o	Handling missing values (total_bedrooms) using imputation.
-o	Scaling & encoding (OneHotEncoder for categorical features).
-o	Managing negative longitude values without special transformation.
+- Handling missing values (total_bedrooms) using imputation.
+- Scaling & encoding (OneHotEncoder for categorical features).
+- Managing negative longitude values without special transformation.
 
 2.	Modeling:
-o	XGBoost Regressor with standard and hyperparameter-tuned versions (RandomizedSearchCV).
-o	Evaluation metrics: RMSE (Root Mean Squared Error)
-RMSE for Datasets:  Validation: 49,768.54 , Test (Default XGBoost): 47,761.38 , Test (Random Search): 47,416.80)
+- XGBoost Regressor with standard and hyperparameter-tuned versions (RandomizedSearchCV).
+- Evaluation metrics: RMSE (Root Mean Squared Error)
+- RMSE for Datasets:  Validation: 49,768.54 , Test (Default XGBoost): 47,761.38 , Test (Random Search): 47,416.80
 
 3.	API:
-o	Built with FastAPI.
-o	JWT authentication for secure predictions.
-o	Endpoint /predict receives JSON input and returns predicted house value.
-o	Predictions are stored in a PostgreSQL/SQLite database using SQLAlchemy ORM.
+- Built with FastAPI.
+- JWT authentication for secure predictions.
+- Endpoint /predict receives JSON input and returns predicted house value.
+- Predictions are stored in a PostgreSQL/SQLite database using SQLAlchemy ORM.
 
 4.	Frontend:
-o	Streamlit app for user-friendly interaction.
-o	Users can login, enter feature values, and get predictions in real-time.
-o	Two-column layout for input features for better UX.
+- Streamlit app for user-friendly interaction.
+- Users can login, enter feature values, and get predictions in real-time.
+- Two-column layout for input features for better UX.
 
 5.	Deployment:
-o	Dockerized with Dockerfile and docker-compose.
-o	Services: FastAPI (port 8000) and Streamlit (port 8501).
-o	Volumes enable live code changes during development.
+- Dockerized with Dockerfile and docker-compose.
+- Services: FastAPI (port 8000) and Streamlit (port 8501).
+- Volumes enable live code changes during development.
  
 ## 🛠️ Installation & Setup
 
