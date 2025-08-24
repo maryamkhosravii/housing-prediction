@@ -25,7 +25,7 @@ Key components:
 - Built with FastAPI.
 - JWT authentication for secure predictions.
 - Endpoint /predict receives JSON input and returns predicted house value.
-- Predictions are stored in a PostgreSQL/SQLite database using SQLAlchemy ORM.
+- Predictions are stored in a SQLite database using SQLAlchemy ORM.
 
 4.	Frontend:
 - Streamlit app for user-friendly interaction.
